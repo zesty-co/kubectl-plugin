@@ -4,6 +4,8 @@
       - [Uninstallation](#uninstallation)
     - [Manual (not recommended)](#manual-not-recommended)
   - [Usage](#usage)
+  - [Changelog](#changelog)
+    - [v1.0.1](#v101)
 
 # Zesty kubectl plugin
 
@@ -55,3 +57,19 @@ Download the latest version from the [releases](https://github.com/zesty-co/kube
 ## Usage
 
 Run `kubectl zesty --help` for availble functionality.
+
+> [!NOTE]
+> If you are on MacOs or Linux and receiving the following error
+> ```bash
+> error: unknown command "zesty" for "kubectl"
+> ```
+> run the following command to make sure the plugin is executable:
+> ```bash
+> chmod +x ~/.krew/store/zesty/*/kubectl-zesty
+> ```
+
+## Changelog
+
+### v1.0.1 
+
+Bug fix: Displaying an error message and continuing to collect subsequent resource YML or log instead of exiting upon encountering an error.
