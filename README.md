@@ -5,6 +5,7 @@
     - [Manual (not recommended)](#manual-not-recommended)
   - [Usage](#usage)
   - [Changelog](#changelog)
+    - [v2.0.0](#v200)
     - [v1.0.1](#v101)
 
 # Zesty kubectl plugin
@@ -69,6 +70,10 @@ Run `kubectl zesty --help` for availble functionality.
 > ```
 
 ## Changelog
+
+### v2.0.0
+
+Compatible with zesty-helm version 1.0.253 (new naming convention for internal Zesty resources)
 
 ### v1.0.1 
 
