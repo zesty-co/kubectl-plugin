@@ -5,6 +5,7 @@
     - [Manual (not recommended)](#manual-not-recommended)
   - [Usage](#usage)
   - [Changelog](#changelog)
+    - [v2.1.1](#v211)
     - [v2.1.0](#v210)
     - [v2.0.0](#v200)
     - [v1.0.1](#v101)
@@ -71,6 +72,10 @@ Run `kubectl zesty --help` for availble functionality.
 > ```
 
 ## Changelog
+
+### v2.1.1
+
+Improved volumeattachments' collection
 
 ### v2.1.0
 
