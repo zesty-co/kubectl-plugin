@@ -5,6 +5,7 @@
     - [Manual (not recommended)](#manual-not-recommended)
   - [Usage](#usage)
   - [Changelog](#changelog)
+    - [v2.2](#v22)
     - [v2.1.1](#v211)
     - [v2.1.0](#v210)
     - [v2.0.0](#v200)
@@ -73,18 +74,25 @@ Run `kubectl zesty --help` for availble functionality.
 
 ## Changelog
 
+### v2.2
+
+Added a command to collect persistent volumes' usage and utilization
+
 ### v2.1.1
 
-Improved volumeattachments' collection
+Logs collection command:
+- Improved volumeattachments' collection
 
 ### v2.1.0
 
-Added collection for Zesty's internal Mutator and Extender pods
+Logs collection command:
+- Added collection for Zesty's internal Mutator and Extender pods
 
 ### v2.0.0
 
 Compatible with zesty-helm version 1.0.253 (new naming convention for internal Zesty resources)
 
-### v1.0.1 
+### v1.0.1
 
-Bug fix: Displaying an error message and continuing to collect subsequent resource YML or log instead of exiting upon encountering an error.
+Logs collection command:
+- Bug fix: Displaying an error message and continuing to collect subsequent resource YML or log instead of exiting upon encountering an error.
