@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: zesty
 spec:
-  version: v2.2
+  version: v2.2.0
   shortDescription: zesty kubectl plugin
   description: |
     zesty kubectl plugin
