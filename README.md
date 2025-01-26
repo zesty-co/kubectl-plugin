@@ -5,6 +5,7 @@
     - [Manual (not recommended)](#manual-not-recommended)
   - [Usage](#usage)
   - [Changelog](#changelog)
+    - [v2.3.0](#v230)
     - [v2.2](#v22)
     - [v2.1.1](#v211)
     - [v2.1.0](#v210)
@@ -73,6 +74,10 @@ Run `kubectl zesty --help` for availble functionality.
 > ```
 
 ## Changelog
+
+### v2.3.0
+
+Added ezswitch commands
 
 ### v2.2
 
