@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: zesty
 spec:
-  version: v2.3.0
+  version: v2.3.1
   shortDescription: zesty kubectl plugin
   description: |
     zesty kubectl plugin
@@ -12,41 +12,41 @@ spec:
       matchLabels:
         os: darwin
         arch: amd64
-    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.0/amd64-darwin-v2.3.0.zip
-    sha256: 9c0b2258804e9d977b9cf3d733d11c98b21f893b730e66775121e1ed4a1be504
+    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.1/amd64-darwin-v2.3.1.zip
+    sha256: 852daa63b87413e32c03871d6ec961a8701e3f8b191647427fbd7e8cf97a2039
     bin: ./kubectl-zesty
   - selector:
       matchLabels:
         os: darwin
         arch: arm64
-    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.0/arm64-darwin-v2.3.0.zip
-    sha256: 317edf6166503066faa3b66610fdd7082ec6e66fe6b3b10a6e9a59ea888108d2
+    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.1/arm64-darwin-v2.3.1.zip
+    sha256: 1e3b334d04c58153b72e2134c8301110ad66a27246a6bbd89a6db7f1798a5bd6
     bin: ./kubectl-zesty
   - selector:
       matchLabels:
         os: linux
         arch: amd64
-    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.0/amd64-linux-v2.3.0.zip
-    sha256: d78be9510052e44ad4ff8423d6fbac8f4e4e2f2de8eed56d1c387915860c31a5
+    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.1/amd64-linux-v2.3.1.zip
+    sha256: 325dc43e72f945f06edbf793c88cd33109271cd6e706096bacac08d7ee3ed8dc
     bin: ./kubectl-zesty
   - selector:
       matchLabels:
         os: linux
         arch: arm64
-    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.0/arm64-linux-v2.3.0.zip
-    sha256: bb0d41938e996498357063c5e88cf7f66c60b34554b999a95a2dd44f294bd7a2
+    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.1/arm64-linux-v2.3.1.zip
+    sha256: f2929e3a2010773bec698ec42dfe7289ff9f002b156bb2982ceeb5d736b6d2b4
     bin: ./kubectl-zesty
   - selector:
       matchLabels:
         os: windows
         arch: amd64
-    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.0/amd64-windows-v2.3.0.zip
-    sha256: 8f6149fdb45d3d4a7e627f124d6921159a3c1fd0a975e48df3e2798c3aac5f3b
+    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.1/amd64-windows-v2.3.1.zip
+    sha256: d9b32f03c60383663972dd67390749d5dc68f0dceb91ee421bb27154875c7251
     bin: ./kubectl-zesty.exe
   - selector:
       matchLabels:
         os: windows
         arch: arm64
-    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.0/arm64-windows-v2.3.0.zip
-    sha256: 2458ca5c5826b2617615e7ac93fe7ae44eff9bd0ce159b1d7d9772ff0efd89c4
+    uri: https://github.com/zesty-co/kubectl-plugin/releases/download/v2.3.1/arm64-windows-v2.3.1.zip
+    sha256: d8942704a48d883d7f0fde14716a004c1758c032b425a9cb311218452009215e
     bin: ./kubectl-zesty.exe
