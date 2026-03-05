@@ -5,6 +5,7 @@
     - [Manual (not recommended)](#manual-not-recommended)
   - [Usage](#usage)
   - [Changelog](#changelog)
+    - [v3.0.0](#v300)
     - [v2.3.1](#v231)
     - [v2.3.0](#v230)
     - [v2.2](#v22)
@@ -74,7 +75,49 @@ Run `kubectl zesty --help` for availble functionality.
 > chmod +x ~/.krew/store/zesty/*/kubectl-zesty
 > ```
 
+### pod-placement status
+
+Shows Pod Placement savings data, workload evictability breakdown, and cluster summary by connecting to the Kompass Insights Agent running in your cluster.
+
+**Examples:**
+
+```bash
+# Show full pod placement status in table format
+kubectl zesty pod-placement status
+
+# Show only the cluster summary
+kubectl zesty pod-placement status --summary
+
+# Output as JSON
+kubectl zesty pod-placement status -o json
+
+# Use a specific namespace and kubeconfig context
+kubectl zesty pod-placement status --namespace zesty-system --context my-cluster
+
+# Pipe to a file without headers
+kubectl zesty pod-placement status --no-headers > status.csv
+```
+
+**Flags:**
+
+| Flag | Short | Default | Description |
+|------|-------|---------|-------------|
+| `--namespace` | | `""` | Namespace of the Insights Agent service (auto-detected if empty) |
+| `--service-name` | | `""` | Name of the Insights Agent service (auto-detected if empty) |
+| `--output` | `-o` | `table` | Output format: `table`, `json`, `yaml` |
+| `--summary` | | `false` | Show only the cluster summary |
+| `--context` | | `""` | Kubernetes context to use (defaults to current context) |
+| `--timeout` | | `30s` | HTTP request timeout |
+| `--verbose` | `-v` | `false` | Enable verbose logging for debugging |
+| `--log-level` | | `info` | Log level: `debug`, `info`, `warn`, `error` |
+| `--insecure-skip-tls-verify` | | `false` | Skip TLS certificate verification (not recommended for production) |
+| `--no-headers` | | `false` | Omit table headers (useful for CSV-style piping) |
+
 ## Changelog
+
+### v3.0.0
+
+Added pod-placement status functionality
 
 ### v2.3.1
 
