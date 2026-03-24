@@ -43,7 +43,7 @@ Used to interact with Zesty's resources
    $ kubectl krew install zestyIndex/zesty
    ```
 
-4. Verify a successul installation:
+4. Verify a successful installation:
 
    ```bash
    $ kubectl krew list
@@ -59,11 +59,11 @@ kubectl krew uninstall zesty
 
 ### Manual (not recommended)
 
-Download the latest version from the [releases](https://github.com/zesty-co/kubectl-plugin/releases) page and unzip the executable to a directory which is accessable on PATH.
+Download the latest version from the [releases](https://github.com/zesty-co/kubectl-plugin/releases) page and unzip the executable to a directory which is accessible on PATH.
 
 ## Usage
 
-Run `kubectl zesty --help` for availble functionality.
+Run `kubectl zesty --help` for available functionality.
 
 > [!NOTE]
 > If you are on MacOs or Linux and receiving the following error
