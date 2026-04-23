@@ -5,6 +5,7 @@
     - [Manual (not recommended)](#manual-not-recommended)
   - [Usage](#usage)
   - [Changelog](#changelog)
+    - [v3.0.1](#v301)
     - [v3.0.0](#v300)
     - [v2.3.1](#v231)
     - [v2.3.0](#v230)
@@ -114,6 +115,10 @@ kubectl zesty pod-placement status --no-headers > status.csv
 | `--no-headers` | | `false` | Omit table headers (useful for CSV-style piping) |
 
 ## Changelog
+
+### v3.0.1
+
+Improved pod-placement status command behavior and error handling.
 
 ### v3.0.0
 
